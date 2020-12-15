@@ -1,0 +1,99 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.psychoapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="20"
+8-->C:\Users\TheLastV8\AndroidStudioProjects\PsychoApp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\TheLastV8\AndroidStudioProjects\PsychoApp\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\TheLastV8\AndroidStudioProjects\PsychoApp\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\TheLastV8\AndroidStudioProjects\PsychoApp\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->C:\Users\TheLastV8\AndroidStudioProjects\PsychoApp\app\src\main\AndroidManifest.xml:7:5-46:19
+14        android:allowBackup="true"
+14-->C:\Users\TheLastV8\AndroidStudioProjects\PsychoApp\app\src\main\AndroidManifest.xml:8:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.3.1] C:\Users\TheLastV8\.gradle\caches\transforms-2\files-2.1\c560b8721f05ca12656603dd382025ab\core-1.3.1\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\Users\TheLastV8\AndroidStudioProjects\PsychoApp\app\src\main\AndroidManifest.xml:9:9-43
+18        android:label="@string/app_name"
+18-->C:\Users\TheLastV8\AndroidStudioProjects\PsychoApp\app\src\main\AndroidManifest.xml:10:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->C:\Users\TheLastV8\AndroidStudioProjects\PsychoApp\app\src\main\AndroidManifest.xml:11:9-54
+20        android:supportsRtl="true"
+20-->C:\Users\TheLastV8\AndroidStudioProjects\PsychoApp\app\src\main\AndroidManifest.xml:12:9-35
+21        android:testOnly="true"
+22        android:theme="@style/Theme.PsychoApp" >
+22-->C:\Users\TheLastV8\AndroidStudioProjects\PsychoApp\app\src\main\AndroidManifest.xml:13:9-47
+23        <activity android:name="com.example.psychoapp.ErrorActivity" />
+23-->C:\Users\TheLastV8\AndroidStudioProjects\PsychoApp\app\src\main\AndroidManifest.xml:14:9-60
+23-->C:\Users\TheLastV8\AndroidStudioProjects\PsychoApp\app\src\main\AndroidManifest.xml:14:19-48
+24        <activity
+24-->C:\Users\TheLastV8\AndroidStudioProjects\PsychoApp\app\src\main\AndroidManifest.xml:15:9-22:20
+25            android:name="com.example.psychoapp.DecisionActivity"
+25-->C:\Users\TheLastV8\AndroidStudioProjects\PsychoApp\app\src\main\AndroidManifest.xml:16:13-45
+26            android:label=".DecisionActivity"
+26-->C:\Users\TheLastV8\AndroidStudioProjects\PsychoApp\app\src\main\AndroidManifest.xml:17:13-46
+27            android:parentActivityName="com.example.psychoapp.DecisionActivity" >
+27-->C:\Users\TheLastV8\AndroidStudioProjects\PsychoApp\app\src\main\AndroidManifest.xml:18:13-59
+28            <meta-data
+28-->C:\Users\TheLastV8\AndroidStudioProjects\PsychoApp\app\src\main\AndroidManifest.xml:19:13-21:70
+29                android:name="android.support.PARENT_ACTIVITY"
+29-->C:\Users\TheLastV8\AndroidStudioProjects\PsychoApp\app\src\main\AndroidManifest.xml:20:17-63
+30                android:value="com.example.psychoapp.DataActivity" />
+30-->C:\Users\TheLastV8\AndroidStudioProjects\PsychoApp\app\src\main\AndroidManifest.xml:21:17-67
+31        </activity>
+32        <activity
+32-->C:\Users\TheLastV8\AndroidStudioProjects\PsychoApp\app\src\main\AndroidManifest.xml:23:9-30:20
+33            android:name="com.example.psychoapp.DataActivity"
+33-->C:\Users\TheLastV8\AndroidStudioProjects\PsychoApp\app\src\main\AndroidManifest.xml:24:13-41
+34            android:label=".DataActivity"
+34-->C:\Users\TheLastV8\AndroidStudioProjects\PsychoApp\app\src\main\AndroidManifest.xml:25:13-42
+35            android:parentActivityName="com.example.psychoapp.LoginActivity" >
+35-->C:\Users\TheLastV8\AndroidStudioProjects\PsychoApp\app\src\main\AndroidManifest.xml:26:13-56
+36            <meta-data
+36-->C:\Users\TheLastV8\AndroidStudioProjects\PsychoApp\app\src\main\AndroidManifest.xml:19:13-21:70
+37                android:name="android.support.PARENT_ACTIVITY"
+37-->C:\Users\TheLastV8\AndroidStudioProjects\PsychoApp\app\src\main\AndroidManifest.xml:20:17-63
+38                android:value="com.example.psychoapp.LoginActivity" />
+38-->C:\Users\TheLastV8\AndroidStudioProjects\PsychoApp\app\src\main\AndroidManifest.xml:21:17-67
+39        </activity>
+40        <activity
+40-->C:\Users\TheLastV8\AndroidStudioProjects\PsychoApp\app\src\main\AndroidManifest.xml:31:9-38:20
+41            android:name="com.example.psychoapp.LoginActivity"
+41-->C:\Users\TheLastV8\AndroidStudioProjects\PsychoApp\app\src\main\AndroidManifest.xml:32:13-42
+42            android:label=".LoginActivity"
+42-->C:\Users\TheLastV8\AndroidStudioProjects\PsychoApp\app\src\main\AndroidManifest.xml:33:13-43
+43            android:parentActivityName="com.example.psychoapp.MainActivity" >
+43-->C:\Users\TheLastV8\AndroidStudioProjects\PsychoApp\app\src\main\AndroidManifest.xml:34:13-55
+44            <meta-data
+44-->C:\Users\TheLastV8\AndroidStudioProjects\PsychoApp\app\src\main\AndroidManifest.xml:19:13-21:70
+45                android:name="android.support.PARENT_ACTIVITY"
+45-->C:\Users\TheLastV8\AndroidStudioProjects\PsychoApp\app\src\main\AndroidManifest.xml:20:17-63
+46                android:value="com.example.psychoapp.MainActivity" />
+46-->C:\Users\TheLastV8\AndroidStudioProjects\PsychoApp\app\src\main\AndroidManifest.xml:21:17-67
+47        </activity>
+48        <activity android:name="com.example.psychoapp.MainActivity" >
+48-->C:\Users\TheLastV8\AndroidStudioProjects\PsychoApp\app\src\main\AndroidManifest.xml:39:9-45:20
+48-->C:\Users\TheLastV8\AndroidStudioProjects\PsychoApp\app\src\main\AndroidManifest.xml:39:19-47
+49            <intent-filter>
+49-->C:\Users\TheLastV8\AndroidStudioProjects\PsychoApp\app\src\main\AndroidManifest.xml:40:13-44:29
+50                <action android:name="android.intent.action.MAIN" />
+50-->C:\Users\TheLastV8\AndroidStudioProjects\PsychoApp\app\src\main\AndroidManifest.xml:41:17-69
+50-->C:\Users\TheLastV8\AndroidStudioProjects\PsychoApp\app\src\main\AndroidManifest.xml:41:25-66
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->C:\Users\TheLastV8\AndroidStudioProjects\PsychoApp\app\src\main\AndroidManifest.xml:43:17-77
+52-->C:\Users\TheLastV8\AndroidStudioProjects\PsychoApp\app\src\main\AndroidManifest.xml:43:27-74
+53            </intent-filter>
+54        </activity>
+55    </application>
+56
+57</manifest>

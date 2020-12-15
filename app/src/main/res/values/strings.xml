@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">PsychoApp</string>
+    <string name="Psychotest_textview_label">PsychoApp</string>
+    <string name="PsychoTest_button_label">Rozpocznij</string>
+    <string name="data_stop_button_name">Zakończ</string>
+    <string name="activity_login_button">Zaloguj</string>
+    <string name="Data_show_title_string">Wyświetlanie danych</string>
+    <string name="Data_show_gsr_title_string">GSR</string>
+    <string name="Data_show_heart_rate_title_string">Puls</string>
+    <string name="activity_login_title_string">Logowanie</string>
+    <string name="activity_login_login_title_string">Login</string>
+    <string name="activity_login_password_title_string">Hasło</string>
+    <string name="next_test_button_string">NOWE BADANIE</string>
+    <string name="end_app_button_string">WYŁĄCZ</string>
+    <string name="Data_show_gsr_window_string">0</string>
+    <string name="data_show_heart_rate_window_box">0</string>
+    <string name="Data_show_voltage_title_string">Napięcie</string>
+    <string name="Data_show_voltage_window_box">0</string>
+    <string name="activity_error_title_string">Błąd badania</string>
+    <string name="activity_error_end_button_string">Zakończ</string>
+    <string name="activity_error_login_button_string">Powtórz badanie</string>
+    <string name="Status_window_box_string">Poprawne</string>
+    <string name="Status_window_title_string">Status badania</string>
+</resources>
