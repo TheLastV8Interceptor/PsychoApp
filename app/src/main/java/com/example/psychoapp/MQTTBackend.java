@@ -21,10 +21,10 @@ public class MQTTBackend extends AsyncTask<Void, Void, Void>
     protected WeakReference<TextView> HRValueTextViewReference;
     protected WeakReference<TextView> VoltageValueTextViewReference;
 
-    String broker; //= //"tcp://192.168.0.100:1883";
+    String broker; 
     String clientID = "AndroidClientID";
-    String userName; //= //"DesktopPsychotest1";
-    String passwd; //= //"DesktopTest1";
+    String userName;
+    String passwd;
     String startMessageString ="start";
     String stopMessageString ="stop";
 
